@@ -4,10 +4,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "research": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "dev": "node --watch index.js"
+    "research": "node test.js",
+    "start": "node server.js",
+    "dev": "node --watch server.js"
   },
   "keywords": [],
   "author": "",
